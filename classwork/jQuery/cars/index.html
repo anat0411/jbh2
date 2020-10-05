@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <div class="container">
+        <h1>jQuery</h1>
+        <div class="row">
+            <div class="col-md-6">
+                <h2>Form</h2>
+                <div class="form">
+                    <div class="form-group">
+                        <select id="cars_list"></select>
+                    </div>
+                    <div class="form-group">
+                        <input type="number" name="wanted_price" id="wanted_price" placeholder="Wanted Price...">
+                    </div>
+                    <div class="form-group">
+                        <input type="number" name="current_price" id="current_price" disabled
+                            placeholder="Current Price...">
+                    </div>
+                    <div class="form-group">
+                        <select id="payments"></select>
+                    </div>
+                    <div class="btn btn-danger" id="calc_btn">Calc</div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <h2>Result</h2>
+                <div class="result">
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="js.js"></script>
+</body>
+
+</html>
